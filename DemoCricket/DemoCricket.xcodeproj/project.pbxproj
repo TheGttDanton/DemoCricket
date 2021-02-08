@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3324F55C25D1437200FB0D88 /* TournamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324F55B25D1437200FB0D88 /* TournamentViewController.swift */; };
+		3324F56125D1439900FB0D88 /* TournamentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324F56025D1439900FB0D88 /* TournamentViewModel.swift */; };
+		3324F56625D14D7100FB0D88 /* Tournamnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324F56525D14D7100FB0D88 /* Tournamnet.swift */; };
+		3324F56925D14F4400FB0D88 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324F56825D14F4400FB0D88 /* SchedulerService.swift */; };
+		3324F56C25D1547200FB0D88 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324F56B25D1547200FB0D88 /* TeamViewController.swift */; };
+		3324F56F25D154A600FB0D88 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324F56E25D154A600FB0D88 /* TeamViewModel.swift */; };
+		333CEF1225D13F6E0037F547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333CEF1125D13F6E0037F547 /* AppDelegate.swift */; };
+		333CEF1425D13F6E0037F547 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333CEF1325D13F6E0037F547 /* SceneDelegate.swift */; };
+		333CEF1925D13F6E0037F547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333CEF1725D13F6E0037F547 /* Main.storyboard */; };
+		333CEF1C25D13F6E0037F547 /* DemoCricket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333CEF1A25D13F6E0037F547 /* DemoCricket.xcdatamodeld */; };
+		333CEF1E25D13F700037F547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333CEF1D25D13F700037F547 /* Assets.xcassets */; };
+		333CEF2125D13F700037F547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333CEF1F25D13F700037F547 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3324F55B25D1437200FB0D88 /* TournamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentViewController.swift; sourceTree = "<group>"; };
+		3324F56025D1439900FB0D88 /* TournamentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentViewModel.swift; sourceTree = "<group>"; };
+		3324F56525D14D7100FB0D88 /* Tournamnet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournamnet.swift; sourceTree = "<group>"; };
+		3324F56825D14F4400FB0D88 /* SchedulerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
+		3324F56B25D1547200FB0D88 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		3324F56E25D154A600FB0D88 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+		333CEF0E25D13F6E0037F547 /* DemoCricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333CEF1125D13F6E0037F547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		333CEF1325D13F6E0037F547 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		333CEF1825D13F6E0037F547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333CEF1B25D13F6E0037F547 /* DemoCricket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoCricket.xcdatamodel; sourceTree = "<group>"; };
+		333CEF1D25D13F700037F547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333CEF2025D13F700037F547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		333CEF2225D13F700037F547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333CEF0B25D13F6E0037F547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3324F55925D1430700FB0D88 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3324F56325D148E800FB0D88 /* Team */,
+				3324F55A25D1434200FB0D88 /* Tournament */,
+				3324F56525D14D7100FB0D88 /* Tournamnet.swift */,
+				3324F56825D14F4400FB0D88 /* SchedulerService.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3324F55A25D1434200FB0D88 /* Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				3324F55B25D1437200FB0D88 /* TournamentViewController.swift */,
+				3324F56025D1439900FB0D88 /* TournamentViewModel.swift */,
+			);
+			path = Tournament;
+			sourceTree = "<group>";
+		};
+		3324F56325D148E800FB0D88 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				3324F56B25D1547200FB0D88 /* TeamViewController.swift */,
+				3324F56E25D154A600FB0D88 /* TeamViewModel.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		333CEF0525D13F6E0037F547 = {
+			isa = PBXGroup;
+			children = (
+				333CEF1025D13F6E0037F547 /* DemoCricket */,
+				333CEF0F25D13F6E0037F547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333CEF0F25D13F6E0037F547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333CEF0E25D13F6E0037F547 /* DemoCricket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333CEF1025D13F6E0037F547 /* DemoCricket */ = {
+			isa = PBXGroup;
+			children = (
+				3324F55925D1430700FB0D88 /* Screens */,
+				333CEF1125D13F6E0037F547 /* AppDelegate.swift */,
+				333CEF1325D13F6E0037F547 /* SceneDelegate.swift */,
+				333CEF1725D13F6E0037F547 /* Main.storyboard */,
+				333CEF1D25D13F700037F547 /* Assets.xcassets */,
+				333CEF1F25D13F700037F547 /* LaunchScreen.storyboard */,
+				333CEF2225D13F700037F547 /* Info.plist */,
+				333CEF1A25D13F6E0037F547 /* DemoCricket.xcdatamodeld */,
+			);
+			path = DemoCricket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333CEF0D25D13F6E0037F547 /* DemoCricket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333CEF2525D13F700037F547 /* Build configuration list for PBXNativeTarget "DemoCricket" */;
+			buildPhases = (
+				333CEF0A25D13F6E0037F547 /* Sources */,
+				333CEF0B25D13F6E0037F547 /* Frameworks */,
+				333CEF0C25D13F6E0037F547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoCricket;
+			productName = DemoCricket;
+			productReference = 333CEF0E25D13F6E0037F547 /* DemoCricket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333CEF0625D13F6E0037F547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					333CEF0D25D13F6E0037F547 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 333CEF0925D13F6E0037F547 /* Build configuration list for PBXProject "DemoCricket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333CEF0525D13F6E0037F547;
+			productRefGroup = 333CEF0F25D13F6E0037F547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333CEF0D25D13F6E0037F547 /* DemoCricket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333CEF0C25D13F6E0037F547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333CEF2125D13F700037F547 /* LaunchScreen.storyboard in Resources */,
+				333CEF1E25D13F700037F547 /* Assets.xcassets in Resources */,
+				333CEF1925D13F6E0037F547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333CEF0A25D13F6E0037F547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3324F55C25D1437200FB0D88 /* TournamentViewController.swift in Sources */,
+				3324F56C25D1547200FB0D88 /* TeamViewController.swift in Sources */,
+				333CEF1225D13F6E0037F547 /* AppDelegate.swift in Sources */,
+				3324F56625D14D7100FB0D88 /* Tournamnet.swift in Sources */,
+				333CEF1C25D13F6E0037F547 /* DemoCricket.xcdatamodeld in Sources */,
+				3324F56125D1439900FB0D88 /* TournamentViewModel.swift in Sources */,
+				3324F56925D14F4400FB0D88 /* SchedulerService.swift in Sources */,
+				333CEF1425D13F6E0037F547 /* SceneDelegate.swift in Sources */,
+				3324F56F25D154A600FB0D88 /* TeamViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		333CEF1725D13F6E0037F547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333CEF1825D13F6E0037F547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		333CEF1F25D13F700037F547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333CEF2025D13F700037F547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333CEF2325D13F700037F547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333CEF2425D13F700037F547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333CEF2625D13F700037F547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoCricket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DemoCricket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		333CEF2725D13F700037F547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoCricket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DemoCricket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333CEF0925D13F6E0037F547 /* Build configuration list for PBXProject "DemoCricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333CEF2325D13F700037F547 /* Debug */,
+				333CEF2425D13F700037F547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333CEF2525D13F700037F547 /* Build configuration list for PBXNativeTarget "DemoCricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333CEF2625D13F700037F547 /* Debug */,
+				333CEF2725D13F700037F547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		333CEF1A25D13F6E0037F547 /* DemoCricket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				333CEF1B25D13F6E0037F547 /* DemoCricket.xcdatamodel */,
+			);
+			currentVersion = 333CEF1B25D13F6E0037F547 /* DemoCricket.xcdatamodel */;
+			path = DemoCricket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 333CEF0625D13F6E0037F547 /* Project object */;
+}
